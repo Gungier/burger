@@ -1,0 +1,60 @@
+body {
+  background: url("../images/creapyBurger.png") no-repeat center center fixed;
+  background-size: fill;
+  background-color: rgb(3, 3, 3);
+}
+
+h2 {
+  color: rgb(252, 251, 249);
+  font-size: x-large;
+  font-style: oblique;
+  font-family: cursive;
+
+}
+
+h5 {
+  color: rgb(252, 251, 249);
+}
+
+label {
+  color: rgb(255, 255, 255);
+}
+
+h3 {
+  color: rgb(255, 255, 255);
+}
+
+li {
+  padding: 5px;
+  margin: 5px;
+  background: #faebd7;
+  font-size: large;
+  font-style: oblique;
+  font-family: cursive;
+}
+.btn {
+  border: 1px solid red;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(0,0,0, 0.5);
+    transition: width 3s;
+}
+.btn:hover{
+    box-shadow: 22px 22px 22px rgba(0,0,0, 0.5);
+    cursor: pointer;
+}
+label {
+  font-weight: bold;
+  color: darkcyan;
+  font-size: 24px;
+}
+
+p {
+  padding: 10px; 
+  margin: auto;
+  white-space: inherit;
+  background: transparent;
+  color: lightseagreen;
+  font-size: large;
+  font-style: oblique;
+  font-family: cursive;
+}

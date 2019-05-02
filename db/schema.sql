@@ -1,18 +1,13 @@
-id: an auto incrementing int that serves as the primary key.
-
-burger_name: a string.
-
-devoured: a boolean.
+### Schema
 
 DROP DATABASE IF EXISTS burger_db;
-CREATE database burger_db;
-
+CREATE DATABASE burger_db;
 USE burger_db;
 
-CREATE TABLE burger
+CREATE TABLE burgers
 (
-   id INT AUTO_INCREMENT NOT NULL,
-   burger_name VARCHAR (100) NULL, 
-   devoured BOOLEAN DEFAULT false,
-   id PRIMARY KEY (id)
+	id int NOT NULL AUTO_INCREMENT,
+	burger_name varchar(255) NOT NULL,
+	devoured BOOLEAN DEFAULT false,
+	PRIMARY KEY (id)
 );
