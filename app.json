@@ -1,0 +1,9 @@
+{
+  "name": "Eat Da Burger",
+  "description": "This app is designed to practice using Handlebars with Express and MySQL.",
+  "keywords": [
+    "Handlebars",
+    "Express",
+    "MySQL"
+  ],
+}
